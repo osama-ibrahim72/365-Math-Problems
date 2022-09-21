@@ -19,8 +19,9 @@ public:
         }
         
         for(int i=0;i<s.size()/2;i++){
-            //the number isn't Palindrome 
+           
             if(s[i]!=s[s.size()-1-i])
+                //the number isn't Palindrome 
                 return 0;
         }
         //is Palindrome 
